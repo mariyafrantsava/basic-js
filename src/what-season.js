@@ -1,10 +1,6 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function getSeason(date) {
-    /*if (date === "If it looks like a duck, swims like a duck and quacks like a duck, then it probably is a duck(who cares what it really is)") {
-        throw new ReadError('Error');
-    }*/
-
 
     if (date !== undefined && Object.keys(date).length > 0) {
         throw new ReadError('THROWN');
